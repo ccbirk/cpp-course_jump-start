@@ -1,0 +1,8 @@
+#include <iostream>
+using std::out
+using std::endl
+using namespace std;
+
+int main(){
+  char border
+}
