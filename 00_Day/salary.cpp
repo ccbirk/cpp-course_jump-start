@@ -9,8 +9,12 @@ using std::cin;
 int main (){
 
 cout<<" \n";
-string nameSurname;
-cin >> nameSurname ;
+string name;
+string surname;
+ cout << "What is your name ?" cin >> name ;
+ cout << "What is your surname?" cin >> surname;
+ 
+ cout << "What is your age?"  >> cin Age;  
 int Age ;
 cin >> Age;
 string City;
