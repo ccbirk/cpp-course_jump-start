@@ -33,7 +33,7 @@ cout << "Yearly Salary:\t" << yearlySalary << ".\n" ;
 "Gender: M\n" ;
 "Married : \n" ;
 
-cout<<"**********************";
+cout<<"**********************\n" ;
 
 
 
