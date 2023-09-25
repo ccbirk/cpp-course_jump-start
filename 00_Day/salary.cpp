@@ -11,27 +11,32 @@ int main (){
 cout<<" \n";
 string name;
 string surname;
- cout << "What is your name ?" << cin >> name ;
- cout << "What is your surname?" << cin >> surname;
- 
- int Age ;
-
- cout << "What is your age?" << cin >> Age; 
-
- cout << "What is your salary?" ; cin >> monthlySalary ;
-
-
-
-
+int Age ;
 string City;
-cin >> City;
-int x ;
-cin >> x ;
 string  Country ;
-cin >> Country ;
 int monthlySalary ;
-cin >> monthlySalary ;
 int yearlySalary = monthlySalary * 12 ;
+
+ cout << " What is your name ?" << cin >> name ;
+
+ 
+ 
+ cout << " What is your age?" << cin >> Age; 
+
+ cout << " What is your salary?" ; cin >> monthlySalary ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 cout <<"**********************\n\n" ;
 cout << "Name: " << name + " " << surname <<".\n";
