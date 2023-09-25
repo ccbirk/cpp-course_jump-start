@@ -20,30 +20,19 @@ int yearlySalary = monthlySalary * 12 ;
  cout << " What is your name ?" ;
  cin >> name ;
 
- cout << " What is your age?";
+ cout << " What is your age? ";
  cin >> Age; 
 
-cout << "What is your city's name?";
+cout << "What is your city's name? " ;
 cin >> City ;
 
-cout << "What is your country's name?";
-cin >> Country;
+cout << "What is your country's name? ";
+//cin >> Country;
+getline(cin, Country);
+cin >> monthlySalary ;
 
- cout << " What is your salary?" ; 
- cin >> monthlySalary ;
-
- string Gender ;
- cout << "What is your gender? M/F" ;
-
-
-
-
-
-
-
-
-
-
+string Gender ;
+cout << "What is your gender? M/F" ;
 
 
 
