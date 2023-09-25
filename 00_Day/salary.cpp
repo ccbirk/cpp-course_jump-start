@@ -21,7 +21,7 @@ string Gender;
  cout << " What is your name? " ;
  cin >> name ;
 
-count << "What is your surname? " ;
+cout << "What is your surname? " ;
 cin >> surname ;
 
  cout << " What is your age? ";
@@ -31,8 +31,7 @@ cout << "What is your city's name? " ;
 cin >> City ;
 
 cout << "What is your country's name? ";
-//cin >> Country;
-getline(cin, Country);
+getline(cin, Country) ;
  
 cout << "What is your monthly salary? ";
 cin >> monthlySalary ;
@@ -50,8 +49,8 @@ cout << "City\t: " << City <<".\n" ;
 cout << "Country:  " << Country << ".\n";
 cout << "Monthly Salary\t:" << monthlySalary << ".\n" ;
 cout << "Yearly Salary:\t" << yearlySalary << ".\n" ;
-"Gender: M\n" ;
-"Married : 1\n" ;
+cout << "Gender: M\n" ;
+cout << "Married : 1\n" ;
 
 cout<<"**********************\n" ;
 
