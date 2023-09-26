@@ -14,8 +14,8 @@ string surname;
 int Age ;
 string City;
 string  Country ;
-int monthlySalary ;
-
+//int monthlySalary ;
+float monthlySalary;
 string Gender;
 
  cout << " What is your name? " ;
