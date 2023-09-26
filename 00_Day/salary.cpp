@@ -52,20 +52,20 @@ cin>> isMarried;
 
 
 
-cout <<"**********************\n\n" ;
+cout <<"**********************\n\n";
 //cout << "Name\t: " << name + " " << surname <<".\n";
 cout << "Name\t: " << name + " " + surname <<".\n";
  
 cout << "Age \t: " << Age <<" Years.\n";
-cout << "City\t: " << City <<".\n" ;
+cout << "City\t: " << City <<".\n";
 cout << "Country :  " << Country << ".\n";
-cout << "Monthly Salary\t:" << monthlySalary << ".\n" ;
-cout << "Yearly Salary:\t" << yearlySalary << ".\n" ;
+cout << "Monthly Salary\t:" << monthlySalary << ".\n";
+cout << "Yearly Salary:\t" << yearlySalary << ".\n";
 //cout << "Gender\t: M\n" ;
 cout<<"Gender:\t: "<<Gender<<".\n";
-cout << "Married\t: "<<isMarried<<"\n" ;
+cout << "Married\t: "<<isMarried<<"\n";
 
-cout<<"**********************\n" ;
+cout<<"**********************"<<endl;
 
 
 
