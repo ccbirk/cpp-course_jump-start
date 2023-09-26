@@ -2,7 +2,7 @@
 //using namespace std;
 //using std::cout;
 using std::string;
-using std::endl;
+//using std::endl;
 
 int main() {
 
@@ -14,7 +14,7 @@ int main() {
   std::cout<<n2<< " + \n";
   std::cout<<n3<< " + \n";
   std::cout<<"______________________________"<<"\n\n";
-  std::cout<<"Total = "<< sum << "\n\n" ;
+  std::cout<<"Total = "<< sum <<std::endl;
 
   return 0;
 }
