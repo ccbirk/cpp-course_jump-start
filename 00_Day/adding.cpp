@@ -13,16 +13,8 @@ int main() {
   cout<<n1<< " +\n";
   cout<<n2<< " + \n";
   cout<<n3<< " + \n";
- 
-
   cout<<"______________________________"<<"\n\n";
-       
-
   cout<<"Total = "<< sum << "\n\n" ;
 
-
-
-
-    
   return 0;
 }
