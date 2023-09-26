@@ -6,17 +6,18 @@ using std::endl;
 
 int main() {
 
-  string doubleEnter = {"\n\n"};
+  cout<<"\n" ;
   int n1{20} , n2{30} , n3{10} ;
-  cout<<"\n"<<n1<< " +\n";
-  cout<<n2<< " + \n";
-  cout<<n3<<doubleEnter;
+  cout<<"\n"<<n1<< " +\n" ;
+  cout<<n2<< " + \n" ;
+  cout<<n3<< " + \n" ;
+ 
 
-  cout<<"______________________________"<<doubleEnter;
+  cout<<"______________________________"<<"\n\n";
        
   int sum = 0;
   sum = n1 + n2 + n3;
-    cout<<"Total = \n"<<sum;
+  cout<<"Total = "<< sum << "\n\n" ;
 
 
 
