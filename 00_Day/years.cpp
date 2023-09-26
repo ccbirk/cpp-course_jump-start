@@ -3,12 +3,12 @@
 using std::string;
 using std::cout;
 using std::endl;
-using namespace std;
+//using namespace std;
 int main (){
 
-  int sum = 0;
-
-  cout << "\n After " << '5' << " years you will be 30 years old.\n";
+  int AdditionalYears = 5, CurrentAge = 28, CalculateAge = AdditionalYears + CurrentAge;
+    
+  cout << "\n After " << AdditionalYears << " years you will be "<<CalculateAge<<"years old.\n";
 
   return 0;
 
