@@ -62,7 +62,7 @@ cout << "Country :  " << Country << ".\n";
 cout << "Monthly Salary\t:" << monthlySalary << ".\n" ;
 cout << "Yearly Salary:\t" << yearlySalary << ".\n" ;
 //cout << "Gender\t: M\n" ;
- cout<<"Gender:\t: "<<Gender<<".\n";
+cout<<"Gender:\t: "<<Gender<<".\n";
 cout << "Married\t: "<<isMarried<<"\n" ;
 
 cout<<"**********************\n" ;
