@@ -2,6 +2,7 @@
 #include <string>
 
 //using namespace std;
+
 using std::string;
 using std::endl;
 using std::cout;
@@ -36,7 +37,7 @@ cin >> City ;
 cout << " What is your country's name? ";
 //cin >> Country ;
 cin.ignore(1, '\n');
-getline(cin, country);
+getline(cin, Country);
  
 cout << " What is your monthly salary? ";
 cin >> monthlySalary ;
