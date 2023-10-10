@@ -46,10 +46,10 @@ cin >> monthlySalary ;
 float yearlySalary = monthlySalary * 12.0f;
  
 cout << " What is your gender, M/F ? " ;
-cin >> Gender ;
+getchar >> Gender ;
 
 cout<<"Are you married? ";
-cin>> isMarried;
+getchar >> isMarried;
 
 
 
